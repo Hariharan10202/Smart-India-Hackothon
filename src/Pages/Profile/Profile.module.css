@@ -1,0 +1,119 @@
+.profile {
+  width: 1400px;
+}
+.wrapper {
+  display: flex;
+  padding: 60px 60px 60px 100px;
+}
+
+.left {
+  background-color: rgb(195, 189, 201);
+  border-radius: 10px;
+}
+.leftWrapper {
+  padding: 20px 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.leftWrapper img {
+  margin-top: 75px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.leftWrapper h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.leftWrapper p {
+  margin-top: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.right {
+  background-color: rgb(231, 207, 207);
+  margin-left: 40px;
+  border-radius: 10px;
+  margin-right: 100px;
+}
+
+.rightWrapper {
+  padding: 40px;
+}
+
+.project {
+  padding: 30px 20px;
+}
+
+.project li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.recentPost {
+  background-color: rgb(199, 199, 199);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.recentHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recentHeading button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(137, 70, 199);
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.posts {
+  padding: 20px;
+  margin-top: 20px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  position: sticky;
+  height: 200px;
+}
+
+.postList {
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.postList img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.postList p {
+  margin-left: 10px;
+}

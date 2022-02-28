@@ -1,0 +1,7 @@
+.Pane {
+  background-color: rgb(75, 70, 70);
+  flex: 0.6;
+  max-height: 1200px;
+  max-width: 60px;
+  position: sticky;
+}

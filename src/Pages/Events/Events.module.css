@@ -1,0 +1,51 @@
+.wrapper {
+  padding: 40px;
+}
+
+.eventList {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  background-color: aqua;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 40px;
+  height: 600px;
+  width: 1220px;
+  overflow-y: scroll;
+  margin-left: 40px;
+}
+.eventlistItem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.eventlistItem img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.eventlistItem h3 {
+  margin-top: 10px;
+}
+.eventlistItem button {
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 20px;
+  background-color: rgb(172, 163, 247);
+  border: none;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+.eventlistItem button:hover {
+  background-color: rgb(145, 145, 255);
+}

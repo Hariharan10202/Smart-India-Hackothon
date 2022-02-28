@@ -1,0 +1,96 @@
+.Navbar {
+  background-color: rgb(46, 47, 48);
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 70px;
+  margin-right: 20px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.logoImg {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 40px;
+}
+
+.menuItem {
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 30px;
+  transition: 0.4s ease-in-out;
+  padding-bottom: 20px;
+}
+.menuItem:hover {
+  color: rgb(82, 82, 248);
+  border-bottom: 4px solid rgb(82, 82, 248);
+}
+.right {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(80, 77, 77);
+  width: 250px;
+  height: 20px;
+  border-radius: 14px;
+  padding: 10px;
+  margin-right: 20px;
+}
+input {
+  margin-left: 10px;
+  background-color: rgb(80, 77, 77);
+  font-size: 16px;
+  color: #fff;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.notify {
+  margin-right: 20px;
+}
+.notifyIcon {
+  position: absolute;
+  font-size: 27px !important;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.counter {
+  position: relative;
+  top: -4px;
+  left: 8px;
+  background-color: rgb(82, 82, 248);
+  border-radius: 50%;
+  padding: 0 5px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Icon {
+  font-size: 40px !important;
+  cursor: pointer;
+}
