@@ -1,10 +1,9 @@
 .Navbar {
-  background-color: rgb(46, 47, 48);
+  background-color: rgb(75, 70, 70);
   color: #fff;
-  border-radius: 10px;
-  margin-top: 40px;
-  margin-left: 70px;
-  margin-right: 20px;
+  width: 100%;
+  padding: 10px 0;
+  width: 1449px;
 }
 
 .wrapper {
@@ -12,6 +11,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 5px;
+  margin-left: 20px;
 }
 .logoImg {
   width: 70px;
@@ -30,7 +30,7 @@
 }
 
 .menuItem {
-  font-size: 20px;
+  font-size: 17px;
   cursor: pointer;
   margin-right: 30px;
   transition: 0.4s ease-in-out;
@@ -55,7 +55,7 @@
   padding: 10px;
   margin-right: 20px;
 }
-input {
+.search input {
   margin-left: 10px;
   background-color: rgb(80, 77, 77);
   font-size: 16px;
@@ -93,4 +93,9 @@ input:focus {
 .Icon {
   font-size: 40px !important;
   cursor: pointer;
+  margin-left: 10px;
+}
+
+.others {
+  margin-left: 50px;
 }

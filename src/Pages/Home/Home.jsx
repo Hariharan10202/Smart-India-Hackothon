@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Swiper } from 'swiper/react';
 import styles from './Home.module.css';
 
@@ -9,7 +10,9 @@ const Home = () => {
         <div className={styles.middle}>
           <Swiper className={styles.list}>
             <div className={styles.listItem}>
-              <img src='Images/person1.jpg' alt='person' />
+              <Link to='/profile' className='link'>
+                <img src='Images/person1.jpg' alt='person' />
+              </Link>
               <h2 className={styles.profileName}>Emilia</h2>
               <button>Connect</button>
             </div>

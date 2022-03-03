@@ -10,9 +10,6 @@ const Navbar = () => {
     <div className={styles.Navbar}>
       <div className={styles.wrapper}>
         <div className={styles.left}>
-          <div className={styles.logo}>
-            <img className={styles.logoImg} src='Images/logo.jpg' alt='logo' />
-          </div>
           <div className={styles.menus}>
             <Link to='/' className='link'>
               <span className={styles.menuItem}>Peoples</span>
@@ -31,12 +28,19 @@ const Navbar = () => {
             <input type='text' placeholder='Search' />
           </div>
           <div className={styles.notify}>
-            <NotificationsNone className={styles.notifyIcon} />
-            <span className={styles.counter}>3</span>
+            <Link to='/notifications' className='link'>
+              <NotificationsNone className={styles.notifyIcon} />
+              <span className={styles.counter}>3</span>
+            </Link>
           </div>
-          <Link to='/profile' className='link'>
+          <Link to='/Myprofile' className='link'>
             <AccountCircleOutlined className={styles.Icon} />
           </Link>
+          <div className={styles.others}>
+            <Link to='/logout' className='link'>
+              <span className={styles.menuItem}>LOGOUT</span>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
